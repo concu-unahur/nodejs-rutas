@@ -1,30 +1,17 @@
-const superagent = require('superagent');
-const fs = require('fs');
+const fs = require('fs')
+const MapQuest = require('./lib/map_quest');
 
-const urlBase = 'http://open.mapquestapi.com/directions/v2/route'
+const api = new MapQuest('SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc');
 
-const defaultOptions = {
-  locale: 'es_MX',
-  unit: 'k',
-  enhancedNarrative: true,
-  key: 'SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc'
-};
-
-const query = {
-  from: 'Casullo 1034, Morón, Buenos Aires',
-  to: 'Universidad Nacional de Hurlingham'
-}
-
-superagent
-  .get(urlBase)
-  .query({ ...defaultOptions, ...query })
-  .end((err, res) => {
-
-    const info = res.body.info;
-    if (info.statuscode > 0) {
-      throw new Error(info.messages.join('\n'))
+api.obtenerRuta(
+  'Casullo 1034, Morón, Buenos Aires',
+  'Universidad Nacional de Hurlingham',
+  (err, direcciones) => {
+    if (err) {
+      throw err;
     }
 
-    fs.writeFileSync('ruta.json', JSON.stringify(res.body, undefined, 2));
-
-  })
+    console.log('Guardando ruta en archivo...')
+    fs.writeFileSync('ruta.json', JSON.stringify(direcciones, undefined, 2))      
+  }
+);
