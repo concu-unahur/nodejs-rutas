@@ -1,0 +1,323 @@
+{
+  "route": {
+    "hasTollRoad": false,
+    "hasBridge": false,
+    "boundingBox": {
+      "lr": {
+        "lng": -58.624031,
+        "lat": -34.649166
+      },
+      "ul": {
+        "lng": -58.636257,
+        "lat": -34.618515
+      }
+    },
+    "distance": 3.8141,
+    "hasTimedRestriction": false,
+    "hasTunnel": true,
+    "hasHighway": false,
+    "computedWaypoints": [],
+    "routeError": {
+      "errorCode": -400,
+      "message": ""
+    },
+    "formattedTime": "00:04:51",
+    "sessionId": "5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+    "hasAccessRestriction": false,
+    "realTime": -1,
+    "hasSeasonalClosure": false,
+    "hasCountryCross": false,
+    "fuelUsed": 0.12,
+    "legs": [
+      {
+        "hasTollRoad": false,
+        "hasBridge": false,
+        "destNarrative": "Diríjase al MANUEL ORIGONE 151.",
+        "distance": 3.8141,
+        "hasTimedRestriction": false,
+        "hasTunnel": true,
+        "hasHighway": false,
+        "index": 0,
+        "formattedTime": "00:04:51",
+        "origIndex": 1,
+        "hasAccessRestriction": false,
+        "hasSeasonalClosure": false,
+        "hasCountryCross": false,
+        "roadGradeStrategy": [
+          []
+        ],
+        "destIndex": 3,
+        "time": 291,
+        "hasUnpaved": false,
+        "origNarrative": "Sigue al norte por Grant.",
+        "maneuvers": [
+          {
+            "distance": 0.0354,
+            "streets": [
+              "Doctor José María Casullo"
+            ],
+            "narrative": "Empieza dirigiéndote al norte por Doctor José María Casullo hacia Grant.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": -58.624142,
+              "lat": -34.649166
+            },
+            "index": 0,
+            "formattedTime": "00:00:02",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&size=225,160&locations=-34.649166107177734,-58.624141693115234|marker-1||-34.64885330200195,-58.62413787841797|marker-2||&center=-34.649009704589844,-58.6241397857666&defaultMarker=none&zoom=15&rand=-647382079&session=5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 2,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-start_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 0.8481,
+            "streets": [
+              "Grant"
+            ],
+            "narrative": "Sigue a la derecho para ir a Grant.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": -58.624138,
+              "lat": -34.648853
+            },
+            "index": 1,
+            "formattedTime": "00:01:18",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&size=225,160&locations=-34.64885330200195,-58.62413787841797|marker-2||-34.64124298095703,-58.62403106689453|marker-3||&center=-34.64504814147949,-58.62408447265625&defaultMarker=none&zoom=10&rand=-647382079&session=5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+            "transportMode": "AUTO",
+            "attributes": 2048,
+            "time": 78,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 0.9994,
+            "streets": [
+              "Boulevard Brigadier General Juan Manuel de Rosas"
+            ],
+            "narrative": "Haz un giro  leve a la izquierda en Boulevard Brigadier General Juan Manuel de Rosas.",
+            "turnType": 7,
+            "startPoint": {
+              "lng": -58.624031,
+              "lat": -34.641243
+            },
+            "index": 2,
+            "formattedTime": "00:01:08",
+            "directionName": "Northwest",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&size=225,160&locations=-34.64124298095703,-58.62403106689453|marker-3||-34.63333511352539,-58.628971099853516|marker-4||&center=-34.63728904724121,-58.62650108337402&defaultMarker=none&zoom=10&rand=-647382079&session=5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 68,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/rs_slight_left_sm.gif",
+            "direction": 2
+          },
+          {
+            "distance": 1.7172,
+            "streets": [
+              "RP4",
+              "Avenida Gobernador Valentín Vergara"
+            ],
+            "narrative": "Boulevard Brigadier General Juan Manuel de Rosas se convierte en RP4/Avenida Gobernador Valentín Vergara.",
+            "turnType": 0,
+            "startPoint": {
+              "lng": -58.628971,
+              "lat": -34.633335
+            },
+            "index": 3,
+            "formattedTime": "00:01:53",
+            "directionName": "North",
+            "maneuverNotes": [],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&size=225,160&locations=-34.63333511352539,-58.628971099853516|marker-4||-34.61851501464844,-58.63393783569336|marker-5||&center=-34.625925064086914,-58.63145446777344&defaultMarker=none&zoom=9&rand=-647382079&session=5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 113,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/rs_straight_sm.gif",
+            "direction": 1
+          },
+          {
+            "distance": 0.214,
+            "streets": [
+              "Manuel Origone"
+            ],
+            "narrative": "Haz un giro  a la izquierda en Manuel Origone.",
+            "turnType": 6,
+            "startPoint": {
+              "lng": -58.633938,
+              "lat": -34.618515
+            },
+            "index": 4,
+            "formattedTime": "00:00:30",
+            "directionName": "West",
+            "maneuverNotes": [
+              {
+                "manNoteType": "24",
+                "manNote": "Manuel Origone está justo después de Ernesto Plass"
+              },
+              {
+                "manNoteType": "25",
+                "manNote": "Si llegas a Juana Azurduy, te pasaste"
+              }
+            ],
+            "linkIds": [],
+            "signs": [],
+            "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&size=225,160&locations=-34.61851501464844,-58.63393783569336|marker-5||-34.61876678466797,-58.63625717163086|marker-6||&center=-34.6186408996582,-58.63509750366211&defaultMarker=none&zoom=14&rand=-647382079&session=5e6950fd-02c7-4ee4-02b4-22fe-0e39c89030f0",
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 30,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/rs_left_sm.gif",
+            "direction": 7
+          },
+          {
+            "distance": 0,
+            "streets": [],
+            "narrative": "MANUEL ORIGONE 151.",
+            "turnType": -1,
+            "startPoint": {
+              "lng": -58.636257,
+              "lat": -34.618767
+            },
+            "index": 5,
+            "formattedTime": "00:00:00",
+            "directionName": "",
+            "maneuverNotes": [
+              {
+                "manNoteType": "24",
+                "manNote": "Tu lugar de destino está justo después de Ausebione"
+              },
+              {
+                "manNoteType": "25",
+                "manNote": "Si estás en Chuquisaca y llegas a Del Socorro, te pasaste"
+              }
+            ],
+            "linkIds": [],
+            "signs": [],
+            "transportMode": "AUTO",
+            "attributes": 0,
+            "time": 0,
+            "iconUrl": "http://content.mqcdn.com/mqsite/turnsigns/icon-dirs-end_sm.gif",
+            "direction": 0
+          }
+        ],
+        "hasFerry": false
+      }
+    ],
+    "options": {
+      "arteryWeights": [],
+      "cyclingRoadFactor": 1,
+      "timeType": 0,
+      "useTraffic": false,
+      "returnLinkDirections": false,
+      "countryBoundaryDisplay": true,
+      "enhancedNarrative": true,
+      "locale": "es",
+      "tryAvoidLinkIds": [],
+      "drivingStyle": 2,
+      "doReverseGeocode": true,
+      "generalize": -1,
+      "mustAvoidLinkIds": [],
+      "sideOfStreetDisplay": true,
+      "routeType": "FASTEST",
+      "avoidTimedConditions": false,
+      "routeNumber": 0,
+      "shapeFormat": "raw",
+      "maxWalkingDistance": -0.621371,
+      "destinationManeuverDisplay": true,
+      "transferPenalty": -1,
+      "narrativeType": "text",
+      "walkingSpeed": -0.621371,
+      "urbanAvoidFactor": -1,
+      "stateBoundaryDisplay": true,
+      "unit": "K",
+      "highwayEfficiency": 22,
+      "maxLinkId": 0,
+      "maneuverPenalty": -1,
+      "avoidTripIds": [],
+      "filterZoneFactor": -1,
+      "manmaps": "true"
+    },
+    "locations": [
+      {
+        "dragPoint": false,
+        "displayLatLng": {
+          "lng": -58.624142,
+          "lat": -34.649166
+        },
+        "adminArea4": "",
+        "adminArea5": "Morón",
+        "postalCode": "1708",
+        "adminArea1": "AR",
+        "adminArea3": "Buenos Aires",
+        "type": "s",
+        "sideOfStreet": "N",
+        "geocodeQualityCode": "B1XAX",
+        "adminArea4Type": "County",
+        "linkId": 51971996,
+        "street": "Doctor José María Casullo",
+        "adminArea5Type": "City",
+        "geocodeQuality": "STREET",
+        "adminArea1Type": "Country",
+        "adminArea3Type": "State",
+        "latLng": {
+          "lng": -58.624143,
+          "lat": -34.649166
+        }
+      },
+      {
+        "dragPoint": false,
+        "displayLatLng": {
+          "lng": -58.637772,
+          "lat": -34.618301
+        },
+        "adminArea4": "",
+        "adminArea5": "Villa Tesei",
+        "postalCode": "1686",
+        "adminArea1": "AR",
+        "adminArea3": "Buenos Aires",
+        "type": "s",
+        "sideOfStreet": "N",
+        "geocodeQualityCode": "P1XXX",
+        "adminArea4Type": "County",
+        "linkId": 46135795,
+        "street": "Manuel Origone 151",
+        "adminArea5Type": "City",
+        "geocodeQuality": "POINT",
+        "adminArea1Type": "Country",
+        "adminArea3Type": "State",
+        "latLng": {
+          "lng": -58.637773,
+          "lat": -34.618302
+        }
+      }
+    ],
+    "time": 291,
+    "hasUnpaved": false,
+    "locationSequence": [
+      0,
+      1
+    ],
+    "hasFerry": false
+  },
+  "info": {
+    "statuscode": 0,
+    "copyright": {
+      "imageAltText": "© 2020 MapQuest, Inc.",
+      "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+      "text": "© 2020 MapQuest, Inc."
+    },
+    "messages": []
+  }
+}
