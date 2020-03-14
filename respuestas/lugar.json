@@ -1,0 +1,30 @@
+{
+  "street": "Doctor José María Casullo",
+  "adminArea6": "",
+  "adminArea6Type": "Neighborhood",
+  "adminArea5": "Morón",
+  "adminArea5Type": "City",
+  "adminArea4": "",
+  "adminArea4Type": "County",
+  "adminArea3": "Buenos Aires",
+  "adminArea3Type": "State",
+  "adminArea1": "AR",
+  "adminArea1Type": "Country",
+  "postalCode": "1708",
+  "geocodeQualityCode": "B1XAX",
+  "geocodeQuality": "STREET",
+  "dragPoint": false,
+  "sideOfStreet": "N",
+  "linkId": "0",
+  "unknownInput": "",
+  "type": "s",
+  "latLng": {
+    "lat": -34.649166,
+    "lng": -58.624143
+  },
+  "displayLatLng": {
+    "lat": -34.649166,
+    "lng": -58.624143
+  },
+  "mapUrl": "http://open.mapquestapi.com/staticmap/v5/map?key=SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc&type=map&size=225,160&locations=-34.6491662,-58.6241429|marker-sm-50318A-1&scalebar=true&zoom=15&rand=-775776313"
+}
