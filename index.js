@@ -1,11 +1,6 @@
-const fs = require('fs');
 const MapQuest = require('./lib/map_quest');
 
 const api = new MapQuest('SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc');
-
-function escribirJSON(archivo, objeto) {
-  fs.writeFileSync(archivo, JSON.stringify(objeto, undefined, 2));
-}
 
 // Versión con callback (tres parámetros)
 api.obtenerRutaCallback(
@@ -16,8 +11,8 @@ api.obtenerRutaCallback(
       throw err;
     }
 
-    console.log('Guardando ruta en archivo (via callback)...');
-    escribirJSON('ruta-callback.json', ruta);
+    console.log('Obtenida ruta (via callback)...');
+    console.log(ruta);
   }
 );
 
@@ -28,8 +23,8 @@ api
     'Universidad Nacional de Hurlingham'
   )
   .then(ruta => {
-    console.log('Guardando ruta en archivo (via promise)...');
-    escribirJSON('ruta-promise.json', ruta);
+    console.log('Obtenida ruta (via promise)...');
+    console.log(ruta);
   })
   .catch(err => {
     throw err;
