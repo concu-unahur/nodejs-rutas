@@ -1,6 +1,6 @@
 const MapQuest = require('./lib/map_quest');
 
-const api = new MapQuest('SIDB6cYO7U1HSQmLWnJgsZyGxujuUAPc');
+const api = new MapQuest('poner acá el api key');
 
 // Versión con callback (tres parámetros)
 api.obtenerRutaCallback(
